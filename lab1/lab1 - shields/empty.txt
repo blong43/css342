@@ -1,0 +1,9 @@
+blong 1000 12
+lance 1231 3
+mylinh 55 5
+mylinh 1 1
+mylinh 1 0
+alvaro -12378 0
+alvaro -1237 0
+alvaro -12378 0
+alvaro -1237 0

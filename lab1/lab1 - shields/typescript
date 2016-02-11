@@ -1,0 +1,276 @@
+Script started on Sun 12 Jan 2014 07:23:55 PM PST
+]0;thaob@uw1-320-20:~/Documents/lab1-shields[thaob@uw1-320-20 lab1-shields]$ cleartypescript[4Pscriptvalgrind ./a.out DEBUG[9P[C[C[C[C[C[C[C[C[C[C[C[C[Cg++ lab1densitymain.cpp -Wall[K[K[K[K[K[K
+lab1densitymain.cpp: In function ‘int main(int, char**)’:
+lab1densitymain.cpp:61: warning: converting to non-pointer type ‘char’ from NULL
+]0;thaob@uw1-320-20:~/Documents/lab1-shields[thaob@uw1-320-20 lab1-shields]$ g++ lab1densitymain.cppclear[Ktypescript[4Pscriptvalgrind ./a.out DEBUG[9P[C[C[C[C[C[C[C[C[C[C[C[C[C[9@valgrind [C[C[C[C[C[C[C[C[C[C[C[C[C[C-DEBUGWDEBUGaDEBUGlDEBUGlDEBUG DEBUG[C[C[C[C[C
+==19837== Memcheck, a memory error detector
+==19837== Copyright (C) 2002-2009, and GNU GPL'd, by Julian Seward et al.
+==19837== Using Valgrind-3.5.0 and LibVEX; rerun with -h for copyright info
+==19837== Command: ./a.out -Wall DEBUG
+==19837== 
+1debug: 1
+2debug:1
+3debug:1
+successfulRead:1
+4debug:1
+5debug:1
+in main after read, country: , pop: 0, area: 0, density:  0, records:  237
+List of Countries sorted: 
+Greenland 2166086 56326 0.03
+Svalbard 61020 2165 0.04
+FalklandIslands(IslasMalvinas) 12173 3140 0.26
+PitcairnIslands 47 48 1.02
+WesternSahara 266000 393831 1.48
+Mongolia 1564116 2996081 1.92
+Namibia 825418 2088669 2.53
+Australia 7686850 20600856 2.68
+Suriname 163270 475996 2.92
+Iceland 103000 304367 2.96
+Botswana 600370 1842323 3.07
+Mauritania 1030700 3364940 3.26
+Canada 9984670 33212696 3.33
+Libya 1759540 6173579 3.51
+Guyana 214970 770794 3.59
+Gabon 267667 1485832 5.55
+Niue 260 1444 5.55
+Kazakhstan 2717300 15340533 5.65
+CentralAfricanRepublic 622984 4434873 7.12
+Chad 1284000 10111337 7.87
+Bolivia 1098580 9247816 8.42
+Mali 1240000 12324029 9.94
+Angola 1246700 12531357 10.05
+ChristmasIsland 135 1402 10.39
+Niger 1267000 13272679 10.48
+Turkmenistan 488100 5179571 10.61
+Congo,Republicofthe 342000 3903318 11.41
+NewCaledonia 19060 224824 11.80
+PapuaNewGuinea 462840 5931769 12.82
+SaudiArabia 2149690 28161417 13.10
+Belize 22966 301270 13.12
+Algeria 2381740 33769669 14.18
+Norway 323802 4644457 14.34
+Bhutan 47000 682321 14.52
+Argentina 2766890 40677348 14.70
+Somalia 637657 9558666 14.99
+Zambia 752614 11669534 15.51
+Finland 338145 5244749 15.51
+NewZealand 268680 4173460 15.53
+Oman 212460 3311640 15.59
+Sudan 2505810 40218455 16.05
+Paraguay 406750 6831306 16.79
+Vanuatu 12200 215446 17.66
+SaintHelena 413 7601 18.40
+Uruguay 176220 3477778 19.74
+Sweden 449964 9045389 20.10
+SolomonIslands 28450 581318 20.43
+Chile 756950 16454143 21.74
+EquatorialGuinea 28051 616459 21.98
+Djibouti 23000 506221 22.01
+Bahamas,The 13940 307451 22.06
+Brazil 8511965 191908598 22.55
+Peru 1285220 29180899 22.70
+Mozambique 801590 21284701 26.55
+Kyrgyzstan 198500 5356869 26.99
+Laos 236800 6677534 28.20
+Congo,DemocraticRepublicofthe 2345410 66514506 28.36
+Estonia 45226 1307605 28.91
+Venezuela 912050 26414815 28.96
+SaintPierreandMiquelon 242 7044 29.11
+Liberia 111370 3334587 29.94
+UnitedStates 9826630 303824646 30.92
+Zimbabwe 390580 12382920 31.70
+Madagascar 587040 20042551 34.14
+Latvia 64589 2245423 34.76
+FaroeIslands 1399 48668 34.79
+SouthAfrica 1219912 43786115 35.89
+Cameroon 475440 18467692 38.84
+Colombia 1138910 45013674 39.52
+Iran 1648000 65875223 39.97
+Eritrea 121320 5028475 41.45
+Guinea 245857 10211437 41.53
+Guinea-Bissau 36120 1503182 41.62
+Panama 78200 3292693 42.11
+Tanzania 945087 40213162 42.55
+Cocos(Keeling)Islands 14 596 42.57
+Yemen 527970 23013376 43.59
+Nicaragua 129494 5785846 44.68
+Palau 458 21093 46.05
+Belarus 207600 9685768 46.66
+Montenegro 14026 678177 48.35
+Ecuador 283560 13927650 49.12
+Tajikistan 143100 7211884 50.40
+Afghanistan 647500 32738376 50.56
+Fiji 18270 931741 51.00
+TurksandCaicosIslands 430 22352 51.98
+Lithuania 65200 3565205 54.68
+UnitedArabEmirates 83600 4621399 55.28
+BurkinaFaso 274200 15264735 55.67
+Mexico 1972550 109955400 55.74
+VirginIslands 1910 108210 56.65
+Coted'Ivoire 322460 18373060 56.98
+Ireland 70280 4156119 59.14
+WallisandFutuna 274 16448 60.03
+NorfolkIsland 35 2128 60.80
+Uzbekistan 447400 28268440 63.18
+Tunisia 163610 10383577 63.47
+Iraq 437072 28221181 64.57
+Swaziland 17363 1128814 65.01
+Kenya 582650 37953838 65.14
+Bulgaria 110910 7262675 65.48
+Senegal 196190 12853259 65.51
+Brunei 5770 381371 66.10
+Georgia 69700 4630841 66.44
+Jordan 92300 6198677 67.16
+FrenchPolynesia 4167 283019 67.92
+Honduras 112090 7639327 68.15
+Ethiopia 1127127 78254090 69.43
+Lesotho 30355 2128180 70.11
+Burma 678500 47758181 70.39
+Benin 112620 8294941 73.65
+Samoa 2944 217083 73.74
+Timor-Leste 15007 1108777 73.88
+Ukraine 603700 45994287 76.19
+Malaysia 329750 25274133 76.65
+Morocco 446550 34343219 76.91
+Cambodia 181040 14241640 78.67
+Croatia 56542 4491543 79.44
+Spain 504782 40491051 80.21
+Qatar 11437 928635 81.20
+Greece 131940 10722816 81.27
+Macedonia 25333 2061315 81.37
+Egypt 1001450 81713517 81.60
+CostaRica 51100 4195914 82.11
+Cyprus 9250 792604 85.69
+SierraLeone 71740 6294774 87.74
+BosniaandHerzegovina 51129 4590310 89.78
+Turkey 780580 71892807 92.10
+CookIslands 237 21923 92.50
+Romania 237500 22246862 93.67
+Azerbaijan 86600 8177717 94.43
+Montserrat 102 9638 94.49
+Dominica 754 72514 96.17
+Ghana 239460 23382848 97.65
+Austria 83870 8205533 97.84
+Slovenia 20273 2007711 99.03
+France 643427 64057790 99.56
+Armenia 29800 2968586 99.62
+Cuba 110860 11423952 103.05
+Togo 56785 5858673 103.17
+CapeVerde 4033 426998 105.88
+Syria 185180 19747586 106.64
+Hungary 93030 9930915 106.75
+Slovakia 48845 5455407 111.69
+EuropeanUnion 4324782 491018677 113.54
+Portugal 92391 10676910 115.56
+Malawi 118480 13931831 117.59
+Guatemala 108890 13002206 119.41
+Dhekelia 131 15700 119.85
+Poland 312685 38500696 123.13
+Indonesia 1919440 237512355 123.74
+Albania 28748 3619778 125.91
+Denmark 43094 5484723 127.27
+Thailand 514000 65493298 127.42
+Akrotiri 123 15700 127.64
+Moldova 33843 4324450 127.78
+CzechRepublic 78866 10220911 129.60
+Serbia 77474 10159046 131.13
+Uganda 236040 31367972 132.89
+IsleofMan 572 76220 133.25
+Kiribati 811 110356 136.07
+Anguilla 102 14108 138.31
+China 9596960 1330044605 138.59
+Tokelau 10 1433 143.30
+Kuwait 17820 2596799 145.72
+Nigeria 923768 138283240 149.69
+SaintKittsandNevis 261 39619 151.80
+Micronesia,FederatedStatesof 702 107665 153.37
+Gambia,The 11300 1735464 153.58
+Andorra 468 72413 154.73
+BritishVirginIslands 153 24004 156.89
+AntiguaandBarbuda 443 69842 157.66
+Tonga 748 119009 159.10
+Seychelles 455 82247 180.76
+NorthernMarianaIslands 477 86616 181.58
+CaymanIslands 262 47862 182.68
+Switzerland 41290 7581520 183.62
+Luxembourg 2586 486006 187.94
+Italy 301230 58145321 193.03
+Korea,North 120540 23479089 194.78
+DominicanRepublic 48730 9507133 195.10
+Kosovo 10887 2126708 195.34
+Nepal 147181 29519114 200.56
+TrinidadandTobago 5128 1047366 204.24
+SaoTomeandPrincipe 1001 206178 205.97
+Pakistan 803940 167762040 208.67
+Liechtenstein 160 34498 215.61
+Germany 357021 82369548 230.71
+NetherlandsAntilles 960 225369 234.76
+UnitedKingdom 244820 60943912 248.93
+Jamaica 10991 2804332 255.15
+Vietnam 329560 86116559 261.31
+Grenada 344 90343 262.62
+SaintLucia 616 172884 280.66
+PuertoRico 13790 3958128 287.03
+AmericanSamoa 199 57496 288.92
+SaintVincentandtheGrenadines 389 118432 304.45
+Philippines 300000 92681453 308.94
+Burundi 27830 8691005 312.29
+Haiti 27750 8924553 321.61
+SriLanka 65610 21128773 322.04
+Guam 541 175877 325.10
+ElSalvador 21040 7066403 335.86
+Japan 377835 127288419 336.89
+Comoros 2170 731775 337.22
+Belgium 30528 10403951 340.80
+Israel 20770 7112359 342.43
+MarshallIslands 181 63174 349.03
+India 3287590 1147995898 349.19
+Lebanon 10400 3971941 381.92
+Rwanda 26338 10186063 386.74
+Netherlands 41526 16645313 400.84
+WestBank 5860 2611904 445.72
+Tuvalu 26 12177 468.35
+SanMarino 61 29973 491.36
+Korea,South 98480 49232844 499.93
+Aruba 193 101541 526.12
+SaintMartin 54 29376 544.00
+Mayotte 374 216306 578.36
+Mauritius 2040 1274189 624.60
+Taiwan 35980 22920946 637.05
+Barbados 431 281968 654.22
+Nauru 21 13770 655.71
+Jersey 116 91533 789.08
+Guernsey 78 65726 842.64
+Bangladesh 144000 153546901 1066.30
+Bahrain 665 718306 1080.16
+Bermuda 53 66536 1255.40
+Maldives 300 379174 1263.91
+Malta 316 403532 1277.00
+Gibraltar 7 28002 4000.29
+GazaStrip 360 1537269 4270.19
+HongKong 1092 7018636 6427.32
+Singapore 693 4608167 6649.59
+Monaco 2 32796 16398.00
+Macau 28 460823 16457.96
+HolySee(VaticanCity) 0 824 82400.00
+
+Lowest Density: 0.03
+Highest Density: 82400.00
+Median: 80.21
+Average: 722.39
+Area: 123508491
+Population: 7030082671
+Overall Density: 56.92
+==19837== 
+==19837== HEAP SUMMARY:
+==19837==     in use at exit: 0 bytes in 0 blocks
+==19837==   total heap usage: 2 allocs, 2 frees, 8,544 bytes allocated
+==19837== 
+==19837== All heap blocks were freed -- no leaks are possible
+==19837== 
+==19837== For counts of detected and suppressed errors, rerun with: -v
+==19837== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 15 from 8)
+]0;thaob@uw1-320-20:~/Documents/lab1-shields[thaob@uw1-320-20 lab1-shields]$ exit
+exit
+
+Script done on Sun 12 Jan 2014 07:24:17 PM PST
