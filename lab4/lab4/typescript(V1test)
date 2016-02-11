@@ -1,0 +1,81 @@
+Script started on Sun 23 Feb 2014 05:16:47 PM PST
+Disk quotas for user thaob (uid 4918): 
+     Filesystem  blocks   quota   limit   grace   files   quota   limit   grace
+   metis:/home2   30700   1000M   1100M            1183       0       0        
+
+Active processes on uw1-320-19 for user thaob:
+  PID TT       %CPU %MEM     TIME COMMAND
+13779 ?         0.0  0.1 00:00:00 sshd: thaob@pts/11
+13780 pts/11    0.0  0.0 00:00:00 -bash
+15534 pts/11    0.0  0.0 00:00:00 script
+15536 pts/11    0.0  0.0 00:00:00 script
+
+]0;thaob@uw1-320-19:~/Documents/lab4-test[thaob@uw1-320-19 lab4-test]$ valgrind ./a.outg++ -g -Wall lab4performance.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pvalgrind ./a.outg++ -g -Wall *e.cppscript[Kg++ -g -Wall *e.cpp[3Pvalgrind ./a.outg++ -g -Wall lab4performance.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pvalgrind ./a.out[Kvalgrind ./a.out[Kvalgrind ./a.outg++ -g -Wall lab4performance.cpp[1P.cpp[1P.cpp[1P.cpp[1P.cpp[1P.cpp[1P.cpp[1P.cpp[1P.cpp[1P.cpp[1P.cpp[1P.cppt.cppe.cpps.cppt.cpp
+]0;thaob@uw1-320-19:~/Documents/lab4-test[thaob@uw1-320-19 lab4-test]$ g++ -g -Wall lab4test.cpp[9Pvalgrind ./a.out
+==15593== Memcheck, a memory error detector
+==15593== Copyright (C) 2002-2009, and GNU GPL'd, by Julian Seward et al.
+==15593== Using Valgrind-3.5.0 and LibVEX; rerun with -h for copyright info
+==15593== Command: ./a.out
+==15593== 
+Testing Iterative Merge Sort: 
+
+Test size is: 1
+
+Input: 
+0 
+
+Output: 
+0 
+
+Testing Iterative Merge Sort: 
+
+Test size is: 5
+
+Input: 
+11 1 117 99 5 
+
+Output: 
+1 5 11 99 117 
+
+Testing Recursive Merge Sort: 
+
+Test size is: 7
+
+Input: 
+0 8 9 11 1 2 3 
+
+Output: 
+0 1 2 3 8 9 11 
+
+Testing Recursive Quick Sort: 
+
+Test size is: 6
+
+Input: 
+0 1 2 3 4 5 
+
+Output: 
+0 1 2 3 4 5 
+
+Testing Heap Sort: 
+
+Test size is: 6
+
+Input: 
+5 4 3 2 1 0 
+
+Output: 
+0 1 2 3 4 5 
+
+==15593== 
+==15593== HEAP SUMMARY:
+==15593==     in use at exit: 0 bytes in 0 blocks
+==15593==   total heap usage: 2 allocs, 2 frees, 24 bytes allocated
+==15593== 
+==15593== All heap blocks were freed -- no leaks are possible
+==15593== 
+==15593== For counts of detected and suppressed errors, rerun with: -v
+==15593== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 16 from 8)
+]0;thaob@uw1-320-19:~/Documents/lab4-test[thaob@uw1-320-19 lab4-test]$ exit
+
+Script done on Sun 23 Feb 2014 05:17:04 PM PST

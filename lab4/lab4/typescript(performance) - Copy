@@ -1,0 +1,223 @@
+Script started on Sat 22 Feb 2014 12:00:25 AM PST
+Disk quotas for user thaob (uid 4918): 
+     Filesystem  blocks   quota   limit   grace   files   quota   limit   grace
+   metis:/home2   30664   1000M   1100M            1178       0       0        
+
+Active processes on uw1-320-19 for user thaob:
+  PID TT       %CPU %MEM     TIME COMMAND
+22093 ?         0.0  0.1 00:00:00 sshd: thaob@notty
+22094 ?         0.0  0.0 00:00:00 /usr/libexec/openssh/sftp-server
+22152 ?         0.0  0.1 00:00:00 sshd: thaob@pts/1
+22153 pts/1     0.0  0.0 00:00:00 -bash
+22201 ?         0.0  0.1 00:00:00 sshd: thaob@notty
+22202 ?         0.0  0.0 00:00:00 /usr/libexec/openssh/sftp-server
+22317 pts/1     0.0  0.0 00:00:00 script
+22319 pts/1     0.0  0.0 00:00:00 script
+
+]0;thaob@uw1-320-19:~/Documents/lab4-test[thaob@uw1-320-19 lab4-test]$ ./a.outg++ -g -Wall *e.cpp
+]0;thaob@uw1-320-19:~/Documents/lab4-test[thaob@uw1-320-19 lab4-test]$ g++ -g -Wall *e.cpp[12P./a.outg++ -g -Wall *e.cpp[12P./a.outg++ -g -Wall *e.cpp[Kg++ -g -Wall *e.cpp[12P./a.outg++ -g -Wall *e.cpp[12P./a.outg++ -g -Wall *e.cpp[12P./a.outg++ -g -Wall *e.cpp[12P./a.outv./a.outa./a.outl./a.outg./a.outr./a.outi./a.outn./a.outd./a.out ./a.out
+==22376== Memcheck, a memory error detector
+==22376== Copyright (C) 2002-2009, and GNU GPL'd, by Julian Seward et al.
+==22376== Using Valgrind-3.5.0 and LibVEX; rerun with -h for copyright info
+==22376== Command: ./a.out
+==22376== 
+------------------------- TEST1 ----------------------------
+
+Testing Iterative Merge Sort: 
+
+Test size is: 100
+
+Input: 
+241240 411301 187479 153884 9856 325623 153905 69270 360981 . . . 
+7832 487263 132462 236793 438129 241347 157787 316494 379521 
+
+elapsed time: 4 sec, 11101 microsec.
+clock time elapsed: 10000 clock ticks ~= 0.01seconds
+
+Output: 
+7832 9856 15388 30431 45642 52775 69270 72667 75654 . . . 
+440212 450865 452013 461048 463907 470151 478180 479296 487263 
+
+Testing Recursive Merge Sort: 
+
+Test size is: 100
+
+Input: 
+241240 411301 187479 153884 9856 325623 153905 69270 360981 . . . 
+7832 487263 132462 236793 438129 241347 157787 316494 379521 
+
+elapsed time: 4 sec, 15847 microsec.
+clock time elapsed: 10000 clock ticks ~= 0.01seconds
+
+Output: 
+7832 9856 15388 30431 45642 52775 69270 72667 75654 . . . 
+440212 450865 452013 461048 463907 470151 478180 479296 487263 
+
+Testing Recursive Quick Sort: 
+
+Test size is: 100
+
+Input: 
+241240 411301 187479 153884 9856 325623 153905 69270 360981 . . . 
+7832 487263 132462 236793 438129 241347 157787 316494 379521 
+
+elapsed time: 4 sec, 7321 microsec.
+clock time elapsed: 10000 clock ticks ~= 0.01seconds
+
+Output: 
+7832 9856 15388 30431 45642 52775 69270 72667 75654 . . . 
+440212 450865 452013 461048 463907 470151 478180 479296 487263 
+
+------------------------- TEST2 ----------------------------
+
+Testing Iterative Merge Sort: 
+
+Test size is: 1000
+
+Input: 
+20790 270779 393513 226398 403604 255141 371803 51570 386268 . . . 
+364410 423887 223158 97494 281355 461911 178453 217510 126679 
+
+elapsed time: 4 sec, 5124 microsec.
+clock time elapsed: 10000 clock ticks ~= 0.01seconds
+
+Output: 
+418 779 2024 2150 2634 2913 3533 3930 4055 . . . 
+495097 495216 495645 496292 496385 496601 496617 498046 499202 
+
+Testing Recursive Merge Sort: 
+
+Test size is: 1000
+
+Input: 
+20790 270779 393513 226398 403604 255141 371803 51570 386268 . . . 
+364410 423887 223158 97494 281355 461911 178453 217510 126679 
+
+elapsed time: 5 sec, 73421 microsec.
+clock time elapsed: 70000 clock ticks ~= 0.07seconds
+
+Output: 
+418 779 2024 2150 2634 2913 3533 3930 4055 . . . 
+495097 495216 495645 496292 496385 496601 496617 498046 499202 
+
+Testing Recursive Quick Sort: 
+
+Test size is: 1000
+
+Input: 
+20790 270779 393513 226398 403604 255141 371803 51570 386268 . . . 
+364410 423887 223158 97494 281355 461911 178453 217510 126679 
+
+elapsed time: 4 sec, 5086 microsec.
+clock time elapsed: 0 clock ticks ~= 0seconds
+
+Output: 
+418 779 2024 2150 2634 2913 3533 3930 4055 . . . 
+495097 495216 495645 496292 496385 496601 496617 498046 499202 
+
+------------------------- TEST3 ----------------------------
+
+Testing Iterative Merge Sort: 
+
+Test size is: 10000
+
+Input: 
+422259 49998 315720 119615 339382 18493 413057 53796 132908 . . . 
+47106 288933 299026 285543 345842 263385 75653 387643 431423 
+
+elapsed time: 4 sec, 59787 microsec.
+clock time elapsed: 60000 clock ticks ~= 0.06seconds
+
+Output: 
+75 256 316 480 486 495 550 565 567 . . . 
+499649 499660 499681 499696 499733 499752 499813 499922 499965 
+
+Testing Recursive Merge Sort: 
+
+Test size is: 10000
+
+Input: 
+422259 49998 315720 119615 339382 18493 413057 53796 132908 . . . 
+47106 288933 299026 285543 345842 263385 75653 387643 431423 
+
+elapsed time: 4 sec, 800758 microsec.
+clock time elapsed: 790000 clock ticks ~= 0.79seconds
+
+Output: 
+75 256 316 480 486 495 550 565 567 . . . 
+499649 499660 499681 499696 499733 499752 499813 499922 499965 
+
+Testing Recursive Quick Sort: 
+
+Test size is: 10000
+
+Input: 
+422259 49998 315720 119615 339382 18493 413057 53796 132908 . . . 
+47106 288933 299026 285543 345842 263385 75653 387643 431423 
+
+elapsed time: 4 sec, 39935 microsec.
+clock time elapsed: 40000 clock ticks ~= 0.04seconds
+
+Output: 
+75 256 316 480 486 495 550 565 567 . . . 
+499649 499660 499681 499696 499733 499752 499813 499922 499965 
+
+------------------------- TEST4 ----------------------------
+
+Testing Iterative Merge Sort: 
+
+Test size is: 100000
+
+Input: 
+440668 462142 6034 307818 415678 420034 452946 265743 130937 . . . 
+469919 274408 223466 354787 46966 404732 95206 52039 213655 
+
+elapsed time: 4 sec, 738643 microsec.
+clock time elapsed: 740000 clock ticks ~= 0.74seconds
+
+Output: 
+1 2 7 8 11 14 37 38 39 . . . 
+499931 499931 499934 499944 499945 499952 499965 499995 499998 
+
+Testing Recursive Merge Sort: 
+
+Test size is: 100000
+
+Input: 
+440668 462142 6034 307818 415678 420034 452946 265743 130937 . . . 
+469919 274408 223466 354787 46966 404732 95206 52039 213655 
+
+elapsed time: 14 sec, 931873 microsec.
+clock time elapsed: 10930000 clock ticks ~= 10.93seconds
+
+Output: 
+1 2 7 8 11 14 37 38 39 . . . 
+499931 499931 499934 499944 499945 499952 499965 499995 499998 
+
+Testing Recursive Quick Sort: 
+
+Test size is: 100000
+
+Input: 
+440668 462142 6034 307818 415678 420034 452946 265743 130937 . . . 
+469919 274408 223466 354787 46966 404732 95206 52039 213655 
+
+elapsed time: 4 sec, 467022 microsec.
+clock time elapsed: 470000 clock ticks ~= 0.47seconds
+
+Output: 
+1 2 7 8 11 14 37 38 39 . . . 
+499931 499931 499934 499944 499945 499952 499965 499995 499998 
+
+==22376== 
+==22376== HEAP SUMMARY:
+==22376==     in use at exit: 0 bytes in 0 blocks
+==22376==   total heap usage: 16 allocs, 16 frees, 1,777,600 bytes allocated
+==22376== 
+==22376== All heap blocks were freed -- no leaks are possible
+==22376== 
+==22376== For counts of detected and suppressed errors, rerun with: -v
+==22376== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 15 from 8)
+]0;thaob@uw1-320-19:~/Documents/lab4-test[thaob@uw1-320-19 lab4-test]$ exit
+
+Script done on Sat 22 Feb 2014 12:01:50 AM PST

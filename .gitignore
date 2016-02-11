@@ -3,6 +3,7 @@
 *.sdf
 *.sln
 *.v11.suo
+*.vcxproj
 *.vcxproj.*
 *.command.*
 *.read.*

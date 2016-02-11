@@ -1,0 +1,39 @@
+Script started on Sun 09 Feb 2014 09:36:51 PM PST
+]0;thaob@uw1-320-18:~/Documents/lab3-shields[thaob@uw1-320-18 lab3-shields]$ valgrind ./a.outg++ -Wall *main.cpp *elist.cpp *data.cpp[1P[1P[1P[1P[1@t[1@l[1@i[1@s[1@t
+]0;thaob@uw1-320-18:~/Documents/lab3-shields[thaob@uw1-320-18 lab3-shields]$ g++ -Wall *tlist.cpp *elist.cpp *data.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pvalgrind ./a.outg++ -Wall *main.cpp *elist.cpp *data.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pvalgrind ./a.out
+==28615== Memcheck, a memory error detector
+==28615== Copyright (C) 2002-2009, and GNU GPL'd, by Julian Seward et al.
+==28615== Using Valgrind-3.5.0 and LibVEX; rerun with -h for copyright info
+==28615== Command: ./a.out
+==28615== 
+List A:  1 C  2 O  3 D  4 E  
+List B:  5 A  6 L  7 B  8 E  9 R  
+List C:  2 O  4 E  
+List D:  6 L  7 B  8 E  9 R  
+
+Is list A equal to list B: No
+Is list A equal to list C: No
+Is list A equal to list D: No
+Is list B equal to list C: No
+
+Assign A = B = D
+List A: 6 L  7 B  8 E  9 R  
+
+Is list A equal to list B: Yes
+
+Assign B = C 
+List B: 2 O  4 E  
+
+Is list B equal to list C: Yes
+==28615== 
+==28615== HEAP SUMMARY:
+==28615==     in use at exit: 0 bytes in 0 blocks
+==28615==   total heap usage: 101 allocs, 101 frees, 808 bytes allocated
+==28615== 
+==28615== All heap blocks were freed -- no leaks are possible
+==28615== 
+==28615== For counts of detected and suppressed errors, rerun with: -v
+==28615== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 15 from 8)
+]0;thaob@uw1-320-18:~/Documents/lab3-shields[thaob@uw1-320-18 lab3-shields]$ exit
+
+Script done on Sun 09 Feb 2014 09:37:18 PM PST

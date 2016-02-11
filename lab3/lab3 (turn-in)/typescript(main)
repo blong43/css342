@@ -1,0 +1,311 @@
+Script started on Sun 09 Feb 2014 09:43:02 PM PST
+]0;thaob@uw1-320-18:~/Documents/lab3-shields[thaob@uw1-320-18 lab3-shields]$ valgrind ./a.outg++ -Wall *ntest.cpp *elist.cpp *data.cpp[1P[1P[1P[1P[1@m[1@a[1@i[C[1@n[1P
+]0;thaob@uw1-320-18:~/Documents/lab3-shields[thaob@uw1-320-18 lab3-shields]$ g++ -Wall *main.cpp *elist.cpp *data.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pvalgrind ./a.out
+==28765== Memcheck, a memory error detector
+==28765== Copyright (C) 2002-2009, and GNU GPL'd, by Julian Seward et al.
+==28765== Using Valgrind-3.5.0 and LibVEX; rerun with -h for copyright info
+==28765== Command: ./a.out
+==28765== 
+Target1:   s0.txt File size: 665
+Target2:   t0.txt File size: 200331
+Prospect0: c1.txt File size: 149711
+Prospect1: c2.txt File size: 139846
+Prospect2: c3.txt File size: 94795
+Prospect3: c4.txt File size: 139846
+Prospect4: c5.txt File size: 134170
+Prospect5: c6.txt File size: 139846
+Prospect6: c7.txt File size: 111190
+Prospect7: c8.txt File size: 139846
+Prospect8: h1.txt File size: 198373
+Prospect9: h2.txt File size: 139846
+Prospect10: license.txt File size: 21534
+Prospect11: s1.txt File size: 671
+Prospect12: s10.txt File size: 719
+Prospect13: s11.txt File size: 665
+Prospect14: s12.txt File size: 645
+Prospect15: t1.txt File size: 172228
+
+Target1:    2 e  3 n  5 I  13 n  89 i  233 i  
+Target2:    2 E  3 WS  5 R  13 F  89 o  233 b  1597 NL  28657 r  
+Prospect0:  2 L  3 S  5 W  13 T  89 A  233 g  1597 a  28657 i  
+Prospect1:  2 WS  3 Y  5 U  13 T  89 x  233 WS  1597 u  28657 h  
+Prospect2:  2 E  3 WS  5 O  13 WS  89 p  233 F  1597 h  28657 y  
+Prospect3:  2 E  3 WS  5 W  13 E  89 O  233 o  1597 z  28657 WS  
+Prospect4:  2 C  3 H  5 A  13 T  89 o  233 v  1597 n  28657 e  
+Prospect5:  2 E  3 WS  5 A  13 WS  89 WS  233 WS  1597 WS  28657 i  
+Prospect6:  2 M  3 I  5 S  13 I  89 ,  233 e  1597 ,  28657 E  
+Prospect7:  2 E  3 WS  5 I  13 F  89 WS  233 a  1597 w  28657 o  
+Prospect8:  2 N  3 G  5 R  13 I  89 NL  233 E  1597 i  28657 o  
+Prospect9:  2 E  3 WS  5 I  13 I  89 C  233 t  1597 WS  28657 n  
+Prospect10: 2 T  3 H  5 S  13 O  89 -  233 I  1597 s  
+Prospect11: 2 e  3 n  5 f  13 n  89 ,  233 WS  
+Prospect12: 2 WS  3 f  5 s  13 o  89 WS  233 d  
+Prospect13: 2 e  3 n  5 I  13 n  89 i  233 i  
+Prospect14: 2 t  3 h  5 t  13 r  89 i  233 e  
+Prospect15: 2 E  3 WS  5 R  13 F  89 NL  233 S  1597 WS  28657 W  
+Comparing Target1 and Prospect0: 
+~2 e  ~3 n  ~5 I  ~13 n  ~89 i  ~233 i  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target2 and Prospect0: 
+~2 E  ~3 WS  ~5 R  ~13 F  ~89 o  ~233 b  ~1597 NL  ~28657 r  
+  Matches: 8
+  Percent Match: 100.00%
+
+Comparing Target1 and Prospect1: 
+~2 e  ~3 n  ~5 I  ~13 n  ~89 i  ~233 i  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target2 and Prospect1: 
+~2 E  ~3 WS  ~5 R  ~13 F  ~89 o  ~233 b  ~1597 NL  ~28657 r  
+  Matches: 8
+  Percent Match: 100.00%
+
+Comparing Target1 and Prospect2: 
+~2 e  ~3 n  ~5 I  ~13 n  ~89 i  ~233 i  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target2 and Prospect2: 
+~2 E  ~3 WS  ~5 R  ~13 F  ~89 o  ~233 b  ~1597 NL  ~28657 r  
+  Matches: 8
+  Percent Match: 100.00%
+
+Comparing Target1 and Prospect3: 
+~2 e  ~3 n  ~5 I  ~13 n  ~89 i  ~233 i  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target2 and Prospect3: 
+~2 E  ~3 WS  ~5 R  ~13 F  ~89 o  ~233 b  ~1597 NL  ~28657 r  
+  Matches: 8
+  Percent Match: 100.00%
+
+Comparing Target1 and Prospect4: 
+~2 e  ~3 n  ~5 I  ~13 n  ~89 i  ~233 i  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target2 and Prospect4: 
+~2 E  ~3 WS  ~5 R  ~13 F  ~89 o  ~233 b  ~1597 NL  ~28657 r  
+  Matches: 8
+  Percent Match: 100.00%
+
+Comparing Target1 and Prospect5: 
+~2 e  ~3 n  ~5 I  ~13 n  ~89 i  ~233 i  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target2 and Prospect5: 
+~2 E  ~3 WS  ~5 R  ~13 F  ~89 o  ~233 b  ~1597 NL  ~28657 r  
+  Matches: 8
+  Percent Match: 100.00%
+
+Comparing Target1 and Prospect6: 
+~2 e  ~3 n  ~5 I  ~13 n  ~89 i  ~233 i  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target2 and Prospect6: 
+~2 E  ~3 WS  ~5 R  ~13 F  ~89 o  ~233 b  ~1597 NL  ~28657 r  
+  Matches: 8
+  Percent Match: 100.00%
+
+Comparing Target1 and Prospect7: 
+~2 e  ~3 n  ~5 I  ~13 n  ~89 i  ~233 i  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target2 and Prospect7: 
+~2 E  ~3 WS  ~5 R  ~13 F  ~89 o  ~233 b  ~1597 NL  ~28657 r  
+  Matches: 8
+  Percent Match: 100.00%
+
+Comparing Target1 and Prospect8: 
+~2 e  ~3 n  ~5 I  ~13 n  ~89 i  ~233 i  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target2 and Prospect8: 
+~2 E  ~3 WS  ~5 R  ~13 F  ~89 o  ~233 b  ~1597 NL  ~28657 r  
+  Matches: 8
+  Percent Match: 100.00%
+
+Comparing Target1 and Prospect9: 
+~2 e  ~3 n  ~5 I  ~13 n  ~89 i  ~233 i  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target2 and Prospect9: 
+~2 E  ~3 WS  ~5 R  ~13 F  ~89 o  ~233 b  ~1597 NL  ~28657 r  
+  Matches: 8
+  Percent Match: 100.00%
+
+Comparing Target1 and Prospect10: 
+~2 e  ~3 n  ~5 I  ~13 n  ~89 i  ~233 i  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target2 and Prospect10: 
+~2 E  ~3 WS  ~5 R  ~13 F  ~89 o  ~233 b  ~1597 NL  
+  Matches: 7
+  Percent Match: 100.00%
+
+Comparing Target1 and Prospect11: 
+~2 e  ~3 n  ~5 I  ~13 n  ~89 i  ~233 i  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target2 and Prospect11: 
+~2 E  ~3 WS  ~5 R  ~13 F  ~89 o  ~233 b  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target1 and Prospect12: 
+~2 e  ~3 n  ~5 I  ~13 n  ~89 i  ~233 i  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target2 and Prospect12: 
+~2 E  ~3 WS  ~5 R  ~13 F  ~89 o  ~233 b  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target1 and Prospect13: 
+~2 e  ~3 n  ~5 I  ~13 n  ~89 i  ~233 i  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target2 and Prospect13: 
+~2 E  ~3 WS  ~5 R  ~13 F  ~89 o  ~233 b  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target1 and Prospect14: 
+~2 e  ~3 n  ~5 I  ~13 n  ~89 i  ~233 i  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target2 and Prospect14: 
+~2 E  ~3 WS  ~5 R  ~13 F  ~89 o  ~233 b  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target1 and Prospect15: 
+~2 e  ~3 n  ~5 I  ~13 n  ~89 i  ~233 i  
+  Matches: 6
+  Percent Match: 100.00%
+
+Comparing Target2 and Prospect15: 
+~2 E  ~3 WS  ~5 R  ~13 F  ~89 o  ~233 b  ~1597 NL  ~28657 r  
+  Matches: 8
+  Percent Match: 100.00%
+
+PrimeFib List Comparisons: Time Elapsed: 130000 clock ticks ~= 0.13 seconds
+
+Comparing each byte for target1 and prospect1: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target2 and prospect1: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target1 and prospect2: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target2 and prospect2: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target1 and prospect3: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target2 and prospect3: 
+  At byte 4 concludes the prospect did not match the target.
+
+Comparing each byte for target1 and prospect4: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target2 and prospect4: 
+  At byte 5 concludes the prospect did not match the target.
+
+Comparing each byte for target1 and prospect5: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target2 and prospect5: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target1 and prospect6: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target2 and prospect6: 
+  At byte 5 concludes the prospect did not match the target.
+
+Comparing each byte for target1 and prospect7: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target2 and prospect7: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target1 and prospect8: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target2 and prospect8: 
+  At byte 4 concludes the prospect did not match the target.
+
+Comparing each byte for target1 and prospect9: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target2 and prospect9: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target1 and prospect10: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target2 and prospect10: 
+  At byte 4 concludes the prospect did not match the target.
+
+Comparing each byte for target1 and prospect11: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target2 and prospect11: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target1 and prospect12: 
+  At byte 5 concludes the prospect did not match the target.
+
+Comparing each byte for target2 and prospect12: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target1 and prospect13: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target2 and prospect13: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target1 and prospect14: 
+  Target and Prospect files are a match
+
+Comparing each byte for target2 and prospect14: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target1 and prospect15: 
+  At byte 0 concludes the prospect did not match the target.
+
+Comparing each byte for target2 and prospect15: 
+  At byte 0 concludes the prospect did not match the target.
+
+Consecutive List Comparisons: Time Elapsed: 15870000 clock ticks ~= 15.87 seconds
+
+==28765== 
+==28765== HEAP SUMMARY:
+==28765==     in use at exit: 0 bytes in 0 blocks
+==28765==   total heap usage: 628 allocs, 628 frees, 5,996,454 bytes allocated
+==28765== 
+==28765== All heap blocks were freed -- no leaks are possible
+==28765== 
+==28765== For counts of detected and suppressed errors, rerun with: -v
+==28765== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 15 from 8)
+]0;thaob@uw1-320-18:~/Documents/lab3-shields[thaob@uw1-320-18 lab3-shields]$ exit
+
+Script done on Sun 09 Feb 2014 09:43:49 PM PST
